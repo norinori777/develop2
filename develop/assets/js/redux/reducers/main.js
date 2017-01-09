@@ -3,11 +3,16 @@ import moment from 'moment'
 const constants = {
 };
 
-function main(state = {},	action){
+const initialState = {
+    name: 'NORI',
+	childname: 'FUKA'
+}
+
+function rootReducer(state = initialState,	action){
 	switch(action.type) {
 		default:
 			return state
 	}
 }
 
-export default main
+export default rootReducer

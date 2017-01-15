@@ -7,7 +7,7 @@ export default class HelloWorld_child extends Component {
 	}
 	render(){
 		return (
-			<div>Hello Child {this.props.childname}</div>
+			<div>Hello {this.props.childname}</div>
 		)
 	}
 }

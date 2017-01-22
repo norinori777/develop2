@@ -37,7 +37,7 @@ gulp.task('build', function () {
     .pipe(plumber())
     .pipe(using())
     .pipe(gulpwebpack(webpackconfig))
-    .pipe(uglify())
+//    .pipe(uglify())
     .pipe(gulp.dest('./public/js'));
 });
 
